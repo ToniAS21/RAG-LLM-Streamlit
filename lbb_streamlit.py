@@ -69,6 +69,7 @@ def transform_data(df, selected_columns):
 ## Title Main Page
 st.title("📊 RAG CSV Umum (Tanpa Struktur Khusus)")
 st.write("Model basis yang digunakan dalam proyek ini adalah GPT-4.1 Mini dan Anda memerlukan token API OpenAI untuk mengaksesnya. Silakan masukkan token Anda di sidebar untuk mengaktifkan fitur ini.")
+st.write("Setelah itu, mengunggah file CSV, pilih kolom yang ingin di analisis, dan masukan pertanyaan terkait data tersebut sehingga model akan menghasilkan insight yang relevan.")
 ## Sidebar
 ### Input Sidebar
 st.sidebar.header("🔧 Pengaturan")
